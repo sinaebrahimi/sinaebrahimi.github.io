@@ -1,0 +1,9 @@
+# GitHub Pages Configuration
+# No Jekyll theme needed — we use a custom HTML/CSS/JS site.
+# This file tells GitHub Pages to serve from the root.
+
+title: "Sina [Surname] — PhD Researcher"
+description: "Personal academic homepage — 6G Network Slicing, Multi-Agent DRL, SDN/NFV"
+
+# Disable Jekyll processing (we serve static HTML directly)
+plugins: []
