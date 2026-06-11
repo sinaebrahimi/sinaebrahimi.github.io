@@ -140,6 +140,16 @@ img{max-width:100%;display:block}
   .expertise-grid,.contact-grid{grid-template-columns:1fr}
 }
 
+/* ===== ORG LOGOS ===== */
+.content-with-logo{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem}
+.content-main{flex:1;min-width:0}
+.org-logo-wrap{flex-shrink:0;display:flex;align-items:flex-start;padding-top:.15rem}
+.org-logo-wrap img{max-height:40px;width:auto;max-width:130px;object-fit:contain}
+.inline-logo{height:15px;width:auto;display:inline-block;vertical-align:middle;margin:0 2px;position:relative;top:-1px}
+.review-item{display:flex;align-items:center;gap:.6rem}
+.review-logo{height:18px;width:auto;object-fit:contain;flex-shrink:0}
+.cert-logo{height:20px;width:auto;object-fit:contain;flex-shrink:0;margin-left:auto}
+
 /* ===== SCROLLBAR ===== */
 .sidebar::-webkit-scrollbar{width:4px}
 .sidebar::-webkit-scrollbar-thumb{background:rgba(255,255,255,.15);border-radius:2px}

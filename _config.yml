@@ -2,8 +2,8 @@
 # No Jekyll theme needed — we use a custom HTML/CSS/JS site.
 # This file tells GitHub Pages to serve from the root.
 
-title: "Sina Ebrahimi — PhD Researcher"
-description: "Personal academic homepage — E2E Network Slicing for 5G/6G, Deep Reinforcement Learning, SDN/NFV"
+title: "Sina Ebrahimi — PhD Researcher (Open to work opportunities in industry and academia)"
+description: "Personal academic homepage — E2E Network Slicing for 5G/6G, Deep Reinforcement Learning, Network Architectures, and more."
 
 # Disable Jekyll processing (we serve static HTML directly)
 plugins: []
