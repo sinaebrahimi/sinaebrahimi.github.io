@@ -1,0 +1,194 @@
+%=======================================================================
+% Sina Ebrahimi
+% Curriculum Vitae (public copy for sinaebrahimi.github.io)
+% Hard limit: three sides of A4. Keep it that way.
+% Requires resume.cls in the same folder.
+%=======================================================================
+
+\documentclass{resume}
+
+\usepackage[a4paper,left=0.55in,right=0.55in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\urlstyle{same}
+\def\UrlBreaks{\do\/\do-\do.\do?\do=\do_\do\&}
+\newcommand{\weblink}[2]{\href{#1}{\nolinkurl{#2}}}
+\usepackage[none]{hyphenat}
+\usepackage{ragged2e}
+\justifying
+\sloppy
+\setlength{\emergencystretch}{3em}
+
+% Tighter section rules than the class default, to win vertical space
+\def\sectionskip{\smallskip}
+\def\sectionlineskip{\smallskip}
+\def\nameskip{\medskip}
+\def\addressskip{\smallskip}
+
+\newcommand{\entry}[2]{{\bf #1} \hfill {#2}\\}
+\newcommand{\sub}[1]{{\em #1}\par}
+
+\setlist[itemize]{leftmargin=1.1em, topsep=1pt, itemsep=0pt, parsep=0pt}
+
+\name{Sina Ebrahimi}
+\address{\small PhD in End-to-End Network Slicing for 5G/6G Networks \addressSep\ Coventry, United Kingdom \addressSep\ +44 7377 436 435}
+\address{\small \href{mailto:ebrahimi.sina.1372@gmail.com}{ebrahimi.sina.1372@gmail.com} \addressSep\ \href{https://sinaebrahimi.github.io/}{sinaebrahimi.github.io} \addressSep\ \href{https://orcid.org/0000-0001-7349-7351}{ORCID 0000-0001-7349-7351} \addressSep\ \href{https://scholar.google.com/citations?user=Y9kFAooAAAAJ}{Google Scholar}}
+
+\begin{document}
+
+%-----------------------------------------------------------------------
+\begin{rSection}{Research Profile}
+Researcher in artificial intelligence for the management of 5G and 6G mobile networks, with eight years spanning operator core-network strategy, router and transport R\&D, connected-vehicle integration and doctoral research. My work develops multi-agent deep reinforcement learning methods that coordinate radio access, transport and core network resources as a single end-to-end system, so that network slices can meet service guarantees at the timescales real networks operate on. I am lead author of the reference survey for this subfield in \textit{IEEE Communications Surveys and Tutorials}, and I review for six journals and for conference tracks and workshops.
+\end{rSection}
+
+%-----------------------------------------------------------------------
+\begin{rSection}{Education}
+
+\entry{PhD, Electrical and Computer Engineering}{October 2022 to September 2026}
+\sub{Centre for Future Transport and Cities, Coventry University, Coventry, United Kingdom}
+\begin{itemize}
+  \item Thesis: \textit{Satisfaction-Driven Hierarchical Multi-Agent Deep Reinforcement Learning for End-to-End Network Slicing}. Awarded September 2026.
+  %5G/6G End-to-End Network Slicing Framework for Vertical Industries
+  \item Supervisors: Dr Olivier C. L. Haas (Director of Studies), Prof. Soufiene Djahel, Dr Hui Zhou, Dr Faouzi Bouali.
+  \item Held a fully funded doctoral studentship covering all tuition fees and an annual maintenance stipend.
+\end{itemize}
+\smallskip
+
+\entry{MSc, Software Engineering (Computer Networks)}{September 2017 to January 2020}
+\sub{Department of Electrical and Computer Engineering, Tarbiat Modares University, Tehran, Iran. GPA 3.54/4.0}
+\begin{itemize}
+  \item Thesis: \textit{A Resource Allocation Method for Network Slicing in Software-Defined 5G Networks}.
+  \item Supervisors: Dr Behzad Akbari and Dr Nader Mokari, Wireless Innovation Laboratory.
+  \item Awarded full state-funded tuition through Iran's national graduate entrance examination.
+\end{itemize}
+\smallskip
+
+\entry{BSc, Software Engineering}{January 2012 to November 2016}
+\sub{Department of Electrical and Computer Engineering, University of Zanjan, Zanjan, Iran. GPA 3.31/4.0}
+\begin{itemize}
+  \item Awarded full state-funded tuition through Iran's national undergraduate entrance examination.
+\end{itemize}
+
+\end{rSection}
+
+%-----------------------------------------------------------------------
+\begin{rSection}{Awards and Honours}
+\begin{itemize}
+  \item \textbf{Third Best Paper Award}, ITU Kaleidoscope 2020, the International Telecommunication Union's academic conference, for \textit{Digital Transformation via 5G: Deployment Plans} (2020).
+  \item \textbf{Fully funded doctoral studentship}, Centre for Future Transport and Cities, Coventry University (2022 to 2026). Competitive award covering full tuition and an annual stipend.
+  \item \textbf{State-funded university places by national competitive examination}, Iran. Full tuition awarded on examination performance for both the BSc at the University of Zanjan and the MSc at Tarbiat Modares University.
+  \item \textbf{Formal commendation from the Technical Deputy}, Mobile Communication Company of Iran (MCI), for research on 5G technologies and standardisation supporting the national 5G migration programme (2019).
+  \item \textbf{Travel awards}: UNICO I+D 6G programme, Government of Spain, for participation in the i2CAT Advanced Internet Technologies Winter PhD School, Barcelona (2024); University of Bristol (JOINER Project), for the ENSURE poster presentation at the 1st Seminar of Towards Edge Intelligence (TEI), Bristol (May 2026).
+\end{itemize}
+\end{rSection}
+
+%-----------------------------------------------------------------------
+\begin{rSection}{Publications}
+
+\textbf{Journal articles}
+\begin{enumerate}[leftmargin=1.3em, topsep=2pt, itemsep=2pt, parsep=0pt]
+  \item \textbf{S. Ebrahimi}, H. Zhou, S. Djahel, F. Bouali and O. C. L. Haas, ``ENSURE: Multi-Timescale End-to-End Slice Resource Management for 6G Networks,'' \textit{IEEE Transactions on Cognitive Communications and Networking}, manuscript TCCN-TP-26-0585, major revision under review, 2026. Publisher: IEEE. No public record until acceptance; manuscript available on request.
+  \item \textbf{S. Ebrahimi}, F. Bouali and O. C. L. Haas, ``Resource Management From Single-Domain 5G to End-to-End 6G Network Slicing: A Survey,'' \textit{IEEE Communications Surveys and Tutorials}, vol. 26, no. 4, pp. 2836--2866, 2024. Publisher: IEEE. \weblink{https://doi.org/10.1109/COMST.2024.3390613}{doi.org/10.1109/COMST.2024.3390613}
+  \item A. Akhtarshenas, M. A. Vahedifar, N. Ayoobi, B. Maham, T. Alizadeh, \textbf{S. Ebrahimi} and D. L\'{o}pez-P\'{e}rez, ``Federated Learning: A Cutting-Edge Survey of the Latest Advancements and Applications,'' \textit{Computer Communications}, vol. 228, art. 107964, 2024. Publisher: Elsevier. \weblink{https://doi.org/10.1016/j.comcom.2024.107964}{doi.org/10.1016/j.comcom.2024.107964}
+  \item M. Tajallifar, \textbf{S. Ebrahimi}, M. R. Javan, N. Mokari and L. Chiaraviglio, ``Energy-Efficient Task Offloading Under E2E Latency Constraints,'' \textit{IEEE Transactions on Communications}, vol. 70, no. 3, pp. 1711--1725, 2022. Publisher: IEEE. \weblink{https://doi.org/10.1109/TCOMM.2021.3132909}{doi.org/10.1109/TCOMM.2021.3132909}
+\end{enumerate}
+
+\smallskip
+\textbf{Peer-reviewed conference papers}
+\begin{enumerate}[leftmargin=1.3em, topsep=2pt, itemsep=2pt, parsep=0pt]
+  \item \textbf{S. Ebrahimi}, F. Bouali and O. C. L. Haas, ``MARSRA: Mobility-Aware RAN Slicing Resource Allocation for Open RAN Deployments,'' \textit{IEEE International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD)}, Athens, Greece, 2024. Publisher: IEEE. \weblink{https://doi.org/10.1109/CAMAD62243.2024.10942928}{10.1109/CAMAD62243.2024.10942928}
+  \item A. Zakeri, N. Gholipoor, M. Tajallifar, \textbf{S. Ebrahimi}, N. Mokari, M. R. Javan and A. R. Sharafat, ``Digital Transformation via 5G: Deployment Plans,'' \textit{ITU Kaleidoscope Conference}, Ha Noi, Vietnam, 2020. Third Best Paper Award. Publisher: IEEE and ITU. \weblink{https://doi.org/10.23919/ITUK50268.2020.9303177}{doi.org/10.23919/ITUK50268.2020.9303177}
+  \item \textbf{S. Ebrahimi}, A. Zakeri, N. Mokari and B. Akbari, ``Joint Resource and Admission Management for Slice-enabled Networks,'' \textit{IEEE/IFIP Network Operations and Management Symposium (NOMS)}, Budapest, Hungary, 2020. Publisher: IEEE. \weblink{https://doi.org/10.1109/NOMS47738.2020.9110322}{doi.org/10.1109/NOMS47738.2020.9110322}
+\end{enumerate}
+
+\smallskip
+\textbf{Book chapter}
+\begin{enumerate}[leftmargin=1.3em, topsep=2pt, itemsep=2pt, parsep=0pt]
+  \item \textbf{S. Ebrahimi}, A. Nouruzi, A. Akhtarshenas, M. Mosahebfard and S. Djahel, ``AI-based Resilience and Failure Recovery in 6G Networks,'' in \textit{AI-Enabled Wireless Communication: Artificial Intelligence and 6G Networks}, Elsevier and Morgan Kaufmann, invited chapter, under development, to be submitted late October 2026.
+\end{enumerate}
+
+\end{rSection}
+
+%-----------------------------------------------------------------------
+\begin{rSection}{Research and Professional Experience}
+
+\entry{Doctoral Researcher and Research Assistant}{October 2022 to September 2026}
+\sub{Centre for Future Transport and Cities, Coventry University, United Kingdom}
+\begin{itemize}
+  \item Designed ENSURE, a cooperative multi-agent deep reinforcement learning framework in which four agents manage radio access, transport, core and end-to-end slice resources on three distinct control timescales, using soft actor-critic and masked proximal policy optimisation.
+  \item Introduced an action-masking formulation that makes infeasible slice allocations unreachable by construction rather than penalising them after the fact, allowing learned policies to respect service-level guarantees.
+  \item Produced the field's first end-to-end survey of slicing resource management across all three network domains, together with an open-source literature analysis pipeline enabling reproduction and extension by other groups.
+  % \item Built and released the full simulation codebase for both frameworks under open licence.
+\end{itemize}
+
+\entry{Research Assistant, V2X Systems Integration (Project CERTUS)}{January 2025 to July 2025}
+\sub{Centre for Connected and Autonomous Automotive Research, HORIBA MIRA, Nuneaton, United Kingdom}
+\begin{itemize}
+  \item Integrated and validated Cohda Wireless MK6 cellular vehicle-to-everything units on StreetDrone connected and autonomous vehicle platforms for this Innovate UK funded project.
+  \item Tested OBU-to-OBU C-V2X sidelink (PC5) and DSRC (ITS-G5), plus cellular 5G NR uplink/downlink for OBU-to-RSU connectivity; diagnosed failures from packet captures.
+  \item Analysed steering telemetry in Python to estimate control-loop latency and assess deadband mitigation strategies.
+\end{itemize}
+
+\entry{Network Solutions Specialist, Router R\&D}{December 2021 to October 2022}
+\sub{SINA Communication Systems, Tehran, Iran}
+\begin{itemize}
+  \item Tested carrier-grade L2/L3 switch/router NOS modules: Wireshark/tcpdump debugging and verification, GNS3 emulation, TRex traffic generation and VIAVI test devices; documented test procedures and results.
+  \item Worked across OF-DPA, OpenFlow, FRRouting, ONOS, and Stratum for programmable transport hardware.
+\end{itemize}
+
+\entry{Network Performance Tools Engineer}{March 2020 to August 2021}
+\sub{Network Quality and Supervision Department, RighTel Telecommunications, Tehran, Iran}
+\begin{itemize}
+  \item Built the operator's KPI extraction and visualisation pipeline over operations support system telemetry, automating daily network health reporting and downtime alerting.
+  \item Deployed and maintained the supporting database and version control infrastructure.
+\end{itemize}
+
+\entry{5G Core Network Researcher}{January 2018 to July 2019}
+\sub{Mobile Network Technology Solution and Strategy Department, Mobile Communication Company of Iran (MCI)}
+\begin{itemize}
+  \item Contributed to the national operator's 5G core architecture and migration study, covering the service-based architecture, network functions, slicing, SDN and NFV, delivered jointly with Tarbiat Modares University.
+  \item Authored technical reports and delivered internal training on 3GPP standardisation and deployment/migration options to engineering and strategy teams.
+\end{itemize}
+
+\entry{Research and Teaching Assistant}{January 2018 to January 2020}
+\sub{Wireless Innovation Laboratory, Tarbiat Modares University, Tehran, Iran}
+\begin{itemize}
+  \item Published three peer-reviewed papers and supported MSc researchers on network resource allocation projects.
+  \item Teaching assistant for Advanced Computer Networks at MSc level.
+\end{itemize}
+
+\end{rSection}
+
+%-----------------------------------------------------------------------
+\begin{rSection}{Peer Review and Technical Programme Committee Service}
+\textbf{Journal reviewer:} IEEE Transactions on Mobile Computing; IEEE Transactions on Cognitive Communications and Networking; IEEE Transactions on Network and Service Management; IEEE Open Journal of the Communications Society; IEEE Networking Letters; Nature Scientific Reports.\\[2pt]
+\textbf{Conference paper reviewer (tracks, symposia and/or workshops):} IEEE INFOCOM 2025; IEEE ICC 2025 and 2026; IEEE WCNC 2025; IEEE NetSoft 2026; IEEE VTC2024-Fall and VTC2026-Fall; IEEE MedComNet 2025; IEEE FINE 2026.\\[2pt]
+\textbf{Technical programme committee (TPC) member:} IEEE ICC 2025, \textit{Mobile and Wireless Networks Symposium}; IEEE ICC 2026, \textit{Open RAN workshop WS-01}; IEEE WCNC 2025, \textit{Open RAN workshop WS05}; IEEE VTC2024-Fall workshops: \href{https://sites.google.com/view/vtc2024-fall-ccavs/workshop-committee}{\textit{B5G/6G support for space/air/ground/marine/submarine cooperative, connected, and autonomous vehicles}} and \href{https://sites.google.com/view/vtc2024-fall-iiots/workshop-committee}{\textit{B5G/6G Support for Next-generation Industrial IoT}}; IEEE FINE 2026; MEET 2026.\\[2pt]
+\textbf{Professional membership:} IEEE member since 2020, including the Communications Society, Vehicular Technology Society, Computer Society and the UK and Ireland Section; student member of The Institute of Telecommunications Professionals (ITP) since September 2026.
+\end{rSection}
+
+%-----------------------------------------------------------------------
+\begin{rSection}{Invited Talks, Presentations and Outreach}
+\begin{itemize}
+  \item \textbf{\href{https://extend-lab.github.io/TEI/\#posters}{1st Seminar of Towards Edge Intelligence (TEI)}}, Bristol Digital Futures Institute (BDFI), University of Bristol, Bristol, UK, May 2026. Presented the poster ``\textit{ENSURE: Multi-Timescale E2E Slice Resource Management for 6G Networks},'' with travel awarded by the University of Bristol through the JOINER Project.
+  \item \textbf{Coventry Centre for Doctoral Training in AI Community Event}, Coventry, April 2026. Poster on multi-timescale end-to-end slice resource management using multi-agent deep reinforcement learning.
+  \item \textbf{Advanced Internet Technologies Winter PhD School, i2CAT}, Barcelona, November 2024. Presented deep reinforcement learning for Open RAN slicing, with travel supported by the Spanish UNICO I+D 6G programme.
+  \item \textbf{Network Softwarization and Security Laboratory, University College Dublin}, September 2024. Invited seminar on the application of deep reinforcement learning to radio access network slicing.
+  \item \textbf{IEEE CAMAD 2024}, Athens, October 2024, and \textbf{IEEE/IFIP NOMS 2020}, Budapest, April 2020. Conference paper presentations.
+  \item \textbf{Niroo Research Institute}, Tehran, February 2020, and \textbf{MCI and the Iran Telecom Exhibition}, 2018 to 2019. Invited industry lectures on SDN, NFV, network slicing and 5G core migration.
+  \item \textbf{Graduate mentoring}, 2024 to present. Advised more than fourteen international applicants on doctoral applications, resulting in nine successful placements.
+\end{itemize}
+\end{rSection}
+
+%-----------------------------------------------------------------------
+\begin{rSection}{Technical Skills}
+\textbf{Networks:} 5G and 6G systems, network slicing, O-RAN, SDN and NFV, multi-access edge computing, 3GPP and ETSI standards, Wireshark, TRex, GNS3, ONOS.\\
+\textbf{Machine learning:} deep reinforcement learning (Stable-Baselines3, Ray RLlib, Gymnasium), PyTorch, scikit-learn, convex and integer optimisation (CVX, Gurobi), supervised learning.\\
+\textbf{Software and tools:} Python, SQL, MATLAB, C and C++, Linux, Git, Docker, Grafana, \LaTeX.
+\end{rSection}
+
+\end{document}
