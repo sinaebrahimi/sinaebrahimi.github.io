@@ -76,3 +76,26 @@ const skillObserver = new IntersectionObserver(
 
 const skillSection = document.getElementById('skills');
 if (skillSection) skillObserver.observe(skillSection);
+
+// Live GitHub star counts for project cards (cached for an hour per visitor)
+document.querySelectorAll('.gh-stars[data-repo]').forEach(async badge => {
+  const repo = badge.dataset.repo;
+  const key = 'gh-stars:' + repo;
+  const show = n => {
+    badge.querySelector('.gh-stars-count').textContent = n;
+    badge.title = n + (n === 1 ? ' GitHub star' : ' GitHub stars');
+    badge.hidden = false;
+  };
+  try {
+    const cached = JSON.parse(localStorage.getItem(key) || 'null');
+    if (cached && Date.now() - cached.t < 3600000) return show(cached.n);
+  } catch (e) {}
+  try {
+    const res = await fetch('https://api.github.com/repos/' + repo, { headers: { Accept: 'application/vnd.github+json' } });
+    if (!res.ok) return;
+    const n = (await res.json()).stargazers_count;
+    if (typeof n !== 'number') return;
+    show(n);
+    try { localStorage.setItem(key, JSON.stringify({ n, t: Date.now() })); } catch (e) {}
+  } catch (e) {}
+});
