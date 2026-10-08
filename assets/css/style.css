@@ -198,3 +198,5 @@ img{max-width:100%;display:block}
 .pub-links a.gh-stars{background:#fff7e0;color:#b7791f}
 .pub-links a.gh-stars:hover{background:#ffefc2}
 .pub-links a.gh-stars[hidden]{display:none}
+.project-head h3{flex:1;min-width:0}
+.project-date{flex-shrink:0;align-self:flex-start;font-size:.7rem;font-weight:600;color:var(--clr-accent);background:#eef2ff;padding:.15rem .5rem;border-radius:999px;white-space:nowrap;margin-top:.1rem}
