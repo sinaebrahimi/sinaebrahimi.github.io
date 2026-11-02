@@ -175,8 +175,8 @@ img{max-width:100%;display:block}
 
 /* ===== HERO STATUS / CV BUTTON ===== */
 .sidebar-focus{display:inline-block;margin-top:.35rem;color:#cbd5e0}
-.sidebar-status{display:inline-block;margin-top:.45rem;color:#9ae6b4;font-weight:500}
-.sidebar-status i{font-size:.45rem;vertical-align:middle;margin-right:.25rem;color:#48bb78}
+.sidebar-status{display:inline-block;margin-top:.45rem;color:#cbd5e0;font-weight:500}
+.sidebar-status i{font-size:.7rem;margin-right:.25rem}
 .cv-btn{display:inline-flex;align-items:center;gap:.45rem;padding:.55rem 1.1rem;border-radius:999px;background:var(--clr-accent);color:#fff!important;font-size:.82rem;font-weight:600;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.12);transition:transform var(--transition),box-shadow var(--transition)}
 .cv-btn:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(0,0,0,.18)}
 .sidebar-cv{margin-top:1rem;align-self:center}
