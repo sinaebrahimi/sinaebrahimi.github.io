@@ -212,3 +212,6 @@ img{max-width:100%;display:block}
   .logo-stack-isa img{height:16px}
   .logo-stack-itwins img{height:24px}
 }
+.person-links{display:inline-flex;gap:.3rem;margin-left:.1rem;vertical-align:baseline}
+.person-links a{font-size:.8rem;color:var(--clr-text-light);transition:color var(--transition)}
+.person-links a:hover{color:var(--clr-accent)}
