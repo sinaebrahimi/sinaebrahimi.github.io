@@ -201,3 +201,15 @@ img{max-width:100%;display:block}
 .project-head h3{flex:1;min-width:0}
 .project-date{flex-shrink:0;align-self:flex-start;font-size:.7rem;font-weight:600;color:var(--clr-accent);background:#eef2ff;padding:.15rem .5rem;border-radius:999px;white-space:nowrap;margin-top:.1rem}
 .project-card .project-tags{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.org-logo-wrap.logo-stack{flex-direction:column;align-items:flex-end;gap:.45rem}
+.org-logo-wrap.logo-stack img{max-width:none;max-height:none;width:auto;object-fit:contain}
+.logo-stack-main img{height:44px}
+.logo-stack-row{display:flex;align-items:center;gap:.6rem}
+.logo-stack-row img{height:24px}
+.logo-stack-row a:last-child img{height:30px}
+@media(max-width:480px){
+  .logo-stack-main img{height:32px}
+  .logo-stack-row{flex-direction:column;align-items:flex-end;gap:.3rem}
+  .logo-stack-row img{height:16px}
+  .logo-stack-row a:last-child img{height:22px}
+}
